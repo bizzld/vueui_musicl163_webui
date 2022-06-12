@@ -10,7 +10,7 @@ Vue.use(ElementUI);
 //封装axios
 Vue.prototype.$http = axios
 //让ajax携带cookie
-axios.defaults.baseURL = 'http://music.cyrilstudio.top/'
+axios.defaults.baseURL = 'https://netease-cloud-music-api-crete722p-hannah-bingo.vercel.app/'
 
 axios.defaults.withCredentials = true
 
